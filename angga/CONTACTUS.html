@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOBU</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="Favicon_Kobu.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <header>
+            <nav class="container">   
+                <ul class="nav-links">
+                    <li><a href="https://kobu.co/hotels/">Hotels</a></li>
+                    <li><a href="https://kobu.co/villa-rentals/">Villas</a></li>
+                    <li><a href="https://kobu.co/properties/">Properties</a></li>
+                    <li><a href="https://kobu.co/journal/">Journal</a></li>
+                    <li><a href="BIODATA.html">Biodata</a></li>
+                    <li><a href="CONTACTUS.html">Contact Us</a></li>
+                    <li><a href="Game.html">Game</a></li>
+                </ul>
+                
+                <div class="logo">KOBU</div>
+                <img src="search-interface-symbol.png" alt="seacrh" class="search-icon">
+            </nav>
+            <hr>
+            <div class="container-new">
+                <h1>Contact Us</h1>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="familyName">Family Name:</label>
+                        <input type="text" id="familyName" name="familyName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Gender:</label>
+                        <div>
+                            <input type="radio" id="male" name="gender" value="male" required>
+                            <label for="male">Male</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="birthdate">Birthdate:</label>
+                        <input type="date" id="birthdate" name="birthdate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="religion">Religion:</label>
+                        <select id="religion" name="religion" required>
+                            <option value="">Select your religion</option>
+                            <option value="Islam">Islam</option>
+                            <option value="Christianity">Christianity</option>
+                            <option value="Hinduism">Hinduism</option>
+                            <option value="Buddhism">Buddhism</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <textarea id="address" name="address" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Hobbies:</label>
+                        <div>
+                            <input type="checkbox" id="hobby1" name="hobbies" value="Reading">
+                            <label for="hobby1">Reading</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="hobby2" name="hobbies" value="Traveling">
+                            <label for="hobby2">Traveling</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="hobby3" name="hobbies" value="Gaming">
+                            <label for="hobby3">Gaming</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="hobby4" name="hobbies" value="Sports">
+                            <label for="hobby4">Sports</label>
+                        </div>
+                    </div>
+                    <button type="submit">Save</button>
+                </form>
+            </div>
+
+</header>
+<footer>
+    <div class="footer-container">
+        <div class="row-container">
+            <div class="row1">
+                <p>We are a group of like-minded people who value travel, property, furniture and objects by the quality of their design, functionality and aesthetic as well as their environmental impact.</p>
+                <div class="row1-links">
+                    <a href="#">Get Featured on KOBU
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M4.49992 0.166504V1.83317H9.99158L0.333252 11.4915L1.50825 12.6665L11.1666 3.00817V8.49984H12.8333V0.166504H4.49992Z" fill="black"></path></svg>
+                    </a>
+                    <a href="#">Instagram
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M4.49992 0.166504V1.83317H9.99158L0.333252 11.4915L1.50825 12.6665L11.1666 3.00817V8.49984H12.8333V0.166504H4.49992Z" fill="black"></path></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="row2">
+                <img src="Wordmark.svg" alt="Kobu logo">
+            </div>
+        </div>
+    </div>
+
+    <div class="row3">
+        <h6 class="h6-footer">PRIVACY</h6>
+        <h6 class="h6-footer">DISCLOSURE</h6>
+        <h6 class="h6-footer">COOKIES</h6>
+        <a href="https://fti.unai.edu/">FTI UNAI</a>
+        <a href="https://unai.edu/">UNAI WEBSITE</a>
+        <a href="https://jurnal.unai.edu/index.php/teika">JURNAL TEIKA</a>
+    </div>
+</footer>
+</body>
+</html>
